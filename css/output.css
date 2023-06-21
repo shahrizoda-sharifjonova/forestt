@@ -10,6 +10,9 @@
 .Bg\(\#84c0a0\) {
   background: #84c0a0;
 }
+.C\(\#f6cdc8\) {
+  color: #f6cdc8;
+}
 .C\(\#fff\) {
   color: #fff;
 }
@@ -28,6 +31,9 @@
 .Jc\(sb\) {
   justify-content: space-between;
 }
+.Fz\(14px\) {
+  font-size: 14px;
+}
 .Fz\(20px\) {
   font-size: 20px;
 }
@@ -39,6 +45,19 @@
 }
 .H\(3px\) {
   height: 3px;
+}
+.Lh\(140\%\) {
+  line-height: 140%;
+}
+.Mx\(a\) {
+  margin-left: auto;
+  margin-right: auto;
+}
+.Mb\(80px\) {
+  margin-bottom: 80px;
+}
+.Maw\(415px\) {
+  max-width: 415px;
 }
 .Maw\(500px\) {
   max-width: 500px;
@@ -55,14 +74,23 @@
 .Pt\(20px\) {
   padding-top: 20px;
 }
+.Pt\(50px\) {
+  padding-top: 50px;
+}
 .Pb\(20px\) {
   padding-bottom: 20px;
+}
+.Pb\(30px\) {
+  padding-bottom: 30px;
 }
 .Pos\(f\) {
   position: fixed;
 }
 .Pos\(r\) {
   position: relative;
+}
+.Ta\(c\) {
+  text-align: center;
 }
 .Td\(n\) {
   text-decoration: none;
