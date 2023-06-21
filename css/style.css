@@ -73,8 +73,25 @@ main{
 .intro{
     background: url(../img/intro-bg.jpg) center / cover no-repeat;
 }
+@media (max-width: 1200px){
+    .intro__img{
+        margin-bottom: 30px;
+    }
+    .intro__title{
+        font-size: 90px;
+    }
+}
 @media (max-width: 768px) {
+    .header__list{
+        max-width: 100%;
+    }
+    .intro{
+        padding-top: 80px;
+    }
     .footer__p{
         margin-bottom: 40px;
     }
-  }
+    .intro__title{
+        font-size: 60px;
+    }
+}
