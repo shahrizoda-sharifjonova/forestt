@@ -70,3 +70,11 @@ main{
     opacity: 1;
     visibility: visible;
 }
+.intro{
+    background: url(../img/intro-bg.jpg) center / cover no-repeat;
+}
+@media (max-width: 768px) {
+    .footer__p{
+        margin-bottom: 40px;
+    }
+  }

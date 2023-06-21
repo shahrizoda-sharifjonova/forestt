@@ -1,6 +1,9 @@
 .Ai\(c\) {
   align-items: center;
 }
+.Bdrs\(50\%\) {
+  border-radius: 50%;
+}
 .Bg\(\#000\) {
   background: #000;
 }
@@ -31,17 +34,29 @@
 .Jc\(sb\) {
   justify-content: space-between;
 }
+.Fw\(700\) {
+  font-weight: 700;
+}
 .Fz\(14px\) {
   font-size: 14px;
 }
+.Fz\(150px\) {
+  font-size: 150px;
+}
 .Fz\(20px\) {
   font-size: 20px;
+}
+.Fz\(30px\) {
+  font-size: 30px;
 }
 .H\(100vh\) {
   height: 100vh;
 }
 .H\(21px\) {
   height: 21px;
+}
+.H\(228px\) {
+  height: 228px;
 }
 .H\(3px\) {
   height: 3px;
@@ -52,6 +67,12 @@
 .Mx\(a\) {
   margin-left: auto;
   margin-right: auto;
+}
+.Mb\(30px\) {
+  margin-bottom: 30px;
+}
+.Mb\(70px\) {
+  margin-bottom: 70px;
 }
 .Mb\(80px\) {
   margin-bottom: 80px;
@@ -71,6 +92,9 @@
 .Op\(0\) {
   opacity: 0;
 }
+.Pt\(150px\) {
+  padding-top: 150px;
+}
 .Pt\(20px\) {
   padding-top: 20px;
 }
@@ -82,6 +106,9 @@
 }
 .Pb\(30px\) {
   padding-bottom: 30px;
+}
+.Pb\(60px\) {
+  padding-bottom: 60px;
 }
 .Pos\(f\) {
   position: fixed;
@@ -100,6 +127,9 @@
 }
 .W\(100\%\) {
   width: 100%;
+}
+.W\(228px\) {
+  width: 228px;
 }
 .W\(24px\) {
   width: 24px;
