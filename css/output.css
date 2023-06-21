@@ -1,0 +1,81 @@
+.Ai\(c\) {
+  align-items: center;
+}
+.Bg\(\#000\) {
+  background: #000;
+}
+.Bg\(\#333\) {
+  background: #333;
+}
+.Bg\(\#84c0a0\) {
+  background: #84c0a0;
+}
+.C\(\#fff\) {
+  color: #fff;
+}
+.Cur\(p\) {
+  cursor: pointer;
+}
+.D\(f\) {
+  display: flex;
+}
+.Fxd\(c\) {
+  flex-direction: column;
+}
+.Jc\(c\) {
+  justify-content: center;
+}
+.Jc\(sb\) {
+  justify-content: space-between;
+}
+.Fz\(20px\) {
+  font-size: 20px;
+}
+.H\(100vh\) {
+  height: 100vh;
+}
+.H\(21px\) {
+  height: 21px;
+}
+.H\(3px\) {
+  height: 3px;
+}
+.Maw\(500px\) {
+  max-width: 500px;
+}
+.T\(0\) {
+  top: 0;
+}
+.End\(0\) {
+  right: 0;
+}
+.Op\(0\) {
+  opacity: 0;
+}
+.Pt\(20px\) {
+  padding-top: 20px;
+}
+.Pb\(20px\) {
+  padding-bottom: 20px;
+}
+.Pos\(f\) {
+  position: fixed;
+}
+.Pos\(r\) {
+  position: relative;
+}
+.Td\(n\) {
+  text-decoration: none;
+}
+.V\(h\) {
+  visibility: hidden;
+}
+.W\(100\%\) {
+  width: 100%;
+}
+.W\(24px\) {
+  width: 24px;
+}
+.Z\(51\) {
+  z-index: 51;
+}
