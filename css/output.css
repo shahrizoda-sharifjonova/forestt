@@ -13,6 +13,9 @@
 .Bg\(\#84c0a0\) {
   background: #84c0a0;
 }
+.C\(\#111\) {
+  color: #111;
+}
 .C\(\#f6cdc8\) {
   color: #f6cdc8;
 }
@@ -49,6 +52,9 @@
 .Fz\(30px\) {
   font-size: 30px;
 }
+.Fz\(44px\) {
+  font-size: 44px;
+}
 .H\(100vh\) {
   height: 100vh;
 }
@@ -71,6 +77,9 @@
 .Mb\(30px\) {
   margin-bottom: 30px;
 }
+.Mb\(40px\) {
+  margin-bottom: 40px;
+}
 .Mb\(70px\) {
   margin-bottom: 70px;
 }
@@ -83,6 +92,9 @@
 .Maw\(500px\) {
   max-width: 500px;
 }
+.Maw\(700px\) {
+  max-width: 700px;
+}
 .T\(0\) {
   top: 0;
 }
@@ -91,6 +103,10 @@
 }
 .Op\(0\) {
   opacity: 0;
+}
+.Py\(70px\) {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .Pt\(150px\) {
   padding-top: 150px;
