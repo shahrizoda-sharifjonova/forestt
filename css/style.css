@@ -73,12 +73,86 @@ main{
 .intro{
     background: url(../img/intro-bg.jpg) center / cover no-repeat;
 }
+.advantages__item{
+    width: calc(50% - 25px);
+}
+.advantages__item:not(:nth-of-type(5), :nth-of-type(6)){
+    margin-bottom: 50px;
+}
+.contacts{
+    background: url(../img/contacts-bg.jpeg) center / cover no-repeat;
+}
+.contacts__link:not(:last-of-type){
+    display: block;
+    margin-right: 40px;
+}
+@media(max-width: 1400px){
+    .advices__content{
+        left: 60px;
+    }
+}
 @media (max-width: 1200px){
     .intro__img{
         margin-bottom: 30px;
     }
     .intro__title{
         font-size: 90px;
+    }
+    .offer__left{
+        width: 50%;
+        margin-right: 40px;
+    }
+    .offer__right{
+        width: 50%;
+    }
+    .offer__title{
+        font-size: 44px;
+    }
+    .advices__content{
+        top: 0;
+        left: 0px;
+    }
+    .advices__left{
+        max-width: 50%;
+        width: 100%;
+    }
+    .advices__img{
+        width: 100%;
+    }
+    .advices__img img{
+        width: 100%;
+    }
+    .advices__title{
+        font-size: 50px;
+    }
+}
+@media(max-width: 992px){
+    .security__title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .security__desc{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .offer__title{
+        font-size: 43px;
+    }
+    .offer__desc{
+        margin-bottom: 40px;
+    }
+    .advantages__item{
+        width: calc(50% - 15px);
+    }
+    .advantages__item:not(:nth-of-type(5), :nth-of-type(6)){
+        margin-bottom: 30px;
+    }
+    .advantages__title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .advices__title{
+        font-size: 40px;
     }
 }
 @media (max-width: 768px) {
@@ -93,5 +167,122 @@ main{
     }
     .intro__title{
         font-size: 60px;
+    }
+    .offer__title{
+        font-size: 31px;
+        margin-bottom: 25px;
+        line-height: 140%;
+    }
+    .offer__left{
+        margin-right: 30px;
+    }
+    .offer__desc{
+        line-height: 140%;
+    }
+    .advantages{
+        padding-top: 40px;
+    }
+    .advantages__item{
+        width: 100%;
+    }
+    .advantages__item:not(:nth-of-type(5), :nth-of-type(6)){
+        margin-bottom: 0px;
+    }
+    .advantages__item:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    .advices__body{
+        flex-direction: column;
+    }
+    .advices__left{
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+    .advices__right{
+        padding-left: 80px;
+    }
+    .advices__content{
+        top: 60px;
+        left: 70px;
+    }
+    .contacts{
+        padding-top: 250px;
+        padding-bottom: 60px;
+    }
+    .contacts__title{
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+    .contacts__desc{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+}
+@media(max-width: 575px){
+    .security{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .security__title{
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .security__desc{
+        font-size: 16px;
+    }
+    .offer__body{
+        flex-direction: column;
+    }
+    .offer__left{
+        margin-right: 0;
+        width: 100%;
+    }
+    .offer__right{
+        width: 100%;
+    }
+    .offer__title{
+        font-size: 25px;
+    }
+    .advantages__title{
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    .advantages__tick{
+        min-width: 25px;
+        width: 25px;
+    }
+    .advantages__tick img{
+        width: 100%;
+    }
+    .advantages__p{
+        font-size: 14px;
+    }
+    .advices__img{
+        margin-bottom: 20px;
+    }
+    .advices__subtitle{
+        font-size: 20px;
+    }
+    .advices__left-bottom{
+        padding-left: 0;
+    }
+    .advices__right{
+        padding-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .advices__content{
+        top: 0;
+        left: 0;
+        padding: 30px 15px;
+    }
+    .advices__right-img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .advices__title{
+        font-size: 30px;
+        text-align: center;
     }
 }

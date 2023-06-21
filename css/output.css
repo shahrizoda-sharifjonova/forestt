@@ -1,8 +1,20 @@
 .Ai\(c\) {
   align-items: center;
 }
+.Ai\(st\) {
+  align-items: stretch;
+}
+.Bd\(n\) {
+  border: none;
+}
+.Bdrs\(28px\) {
+  border-radius: 28px;
+}
 .Bdrs\(50\%\) {
   border-radius: 50%;
+}
+.Bdrs\(50px\) {
+  border-radius: 50px;
 }
 .Bg\(\#000\) {
   background: #000;
@@ -10,11 +22,26 @@
 .Bg\(\#333\) {
   background: #333;
 }
+.Bg\(\#4b6256\) {
+  background: #4b6256;
+}
 .Bg\(\#84c0a0\) {
   background: #84c0a0;
 }
+.Bg\(\#f2f2f2\) {
+  background: #f2f2f2;
+}
+.Bg\(\#ffffff\) {
+  background: #ffffff;
+}
 .C\(\#111\) {
   color: #111;
+}
+.C\(\#999\) {
+  color: #999;
+}
+.C\(\#b3b3b3\) {
+  color: #b3b3b3;
 }
 .C\(\#f6cdc8\) {
   color: #f6cdc8;
@@ -28,7 +55,7 @@
 .D\(f\) {
   display: flex;
 }
-.Fxd\(c\) {
+.Fld\(c\), .Fxd\(c\) {
   flex-direction: column;
 }
 .Jc\(c\) {
@@ -36,6 +63,9 @@
 }
 .Jc\(sb\) {
   justify-content: space-between;
+}
+.Flw\(w\) {
+  flex-wrap: wrap;
 }
 .Fw\(700\) {
   font-weight: 700;
@@ -46,8 +76,17 @@
 .Fz\(150px\) {
   font-size: 150px;
 }
+.Fz\(16px\) {
+  font-size: 16px;
+}
+.Fz\(18px\) {
+  font-size: 18px;
+}
 .Fz\(20px\) {
   font-size: 20px;
+}
+.Fz\(24px\) {
+  font-size: 24px;
 }
 .Fz\(30px\) {
   font-size: 30px;
@@ -55,8 +94,17 @@
 .Fz\(44px\) {
   font-size: 44px;
 }
+.Fz\(48px\) {
+  font-size: 48px;
+}
+.Fz\(60px\) {
+  font-size: 60px;
+}
 .H\(100vh\) {
   height: 100vh;
+}
+.H\(146px\) {
+  height: 146px;
 }
 .H\(21px\) {
   height: 21px;
@@ -67,6 +115,12 @@
 .H\(3px\) {
   height: 3px;
 }
+.Iso\(i\) {
+  isolation: isolate;
+}
+.Lts\(6px\) {
+  letter-spacing: 6px;
+}
 .Lh\(140\%\) {
   line-height: 140%;
 }
@@ -74,11 +128,38 @@
   margin-left: auto;
   margin-right: auto;
 }
+.My\(55px\) {
+  margin-top: 55px;
+}
+.My\(55px\), .Mb\(55px\) {
+  margin-bottom: 55px;
+}
+.Mend\(20px\) {
+  margin-right: 20px;
+}
+.Mend\(30px\) {
+  margin-right: 30px;
+}
+.Mend\(60px\) {
+  margin-right: 60px;
+}
+.Mb\(16px\) {
+  margin-bottom: 16px;
+}
+.Mb\(20px\) {
+  margin-bottom: 20px;
+}
 .Mb\(30px\) {
   margin-bottom: 30px;
 }
 .Mb\(40px\) {
   margin-bottom: 40px;
+}
+.Mb\(50px\) {
+  margin-bottom: 50px;
+}
+.Mb\(60px\) {
+  margin-bottom: 60px;
 }
 .Mb\(70px\) {
   margin-bottom: 70px;
@@ -86,23 +167,82 @@
 .Mb\(80px\) {
   margin-bottom: 80px;
 }
+.Maw\(1140px\) {
+  max-width: 1140px;
+}
+.Maw\(215px\) {
+  max-width: 215px;
+}
+.Maw\(240px\) {
+  max-width: 240px;
+}
+.Maw\(376px\) {
+  max-width: 376px;
+}
+.Maw\(390px\) {
+  max-width: 390px;
+}
+.Maw\(412px\) {
+  max-width: 412px;
+}
 .Maw\(415px\) {
   max-width: 415px;
 }
 .Maw\(500px\) {
   max-width: 500px;
 }
+.Maw\(510px\) {
+  max-width: 510px;
+}
+.Maw\(630px\) {
+  max-width: 630px;
+}
 .Maw\(700px\) {
   max-width: 700px;
+}
+.Miw\(100\%\) {
+  min-width: 100%;
 }
 .T\(0\) {
   top: 0;
 }
+.T\(60px\) {
+  top: 60px;
+}
 .End\(0\) {
   right: 0;
 }
+.Start\(90px\) {
+  left: 90px;
+}
 .Op\(0\) {
   opacity: 0;
+}
+.P\(20px\) {
+  padding: 20px;
+}
+.P\(30px\) {
+  padding: 30px;
+}
+.Px\(45px\) {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.Py\(20px\), .Pt\(20px\) {
+  padding-top: 20px;
+}
+.Py\(20px\), .Pb\(20px\) {
+  padding-bottom: 20px;
+}
+.Py\(21px\) {
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+.Py\(60px\) {
+  padding-top: 60px;
+}
+.Py\(60px\), .Pb\(60px\) {
+  padding-bottom: 60px;
 }
 .Py\(70px\) {
   padding-top: 70px;
@@ -111,20 +251,26 @@
 .Pt\(150px\) {
   padding-top: 150px;
 }
-.Pt\(20px\) {
-  padding-top: 20px;
+.Pt\(360px\) {
+  padding-top: 360px;
+}
+.Pt\(40px\) {
+  padding-top: 40px;
 }
 .Pt\(50px\) {
   padding-top: 50px;
 }
-.Pb\(20px\) {
-  padding-bottom: 20px;
-}
 .Pb\(30px\) {
   padding-bottom: 30px;
 }
-.Pb\(60px\) {
-  padding-bottom: 60px;
+.Pb\(80px\) {
+  padding-bottom: 80px;
+}
+.Pstart\(20px\) {
+  padding-left: 20px;
+}
+.Pos\(a\) {
+  position: absolute;
 }
 .Pos\(f\) {
   position: fixed;
@@ -144,11 +290,26 @@
 .W\(100\%\) {
   width: 100%;
 }
+.W\(146px\) {
+  width: 146px;
+}
+.W\(21px\) {
+  width: 21px;
+}
 .W\(228px\) {
   width: 228px;
 }
 .W\(24px\) {
   width: 24px;
+}
+.W\(40\%\) {
+  width: 40%;
+}
+.W\(60\%\) {
+  width: 60%;
+}
+.Z\(2\) {
+  z-index: 2;
 }
 .Z\(51\) {
   z-index: 51;
